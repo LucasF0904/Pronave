@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pronave
+namespace Pronave.Telas
 {
-    public partial class Form1 : Form
+    public partial class Inicial : Form
     {
-        public Form1()
+        public Inicial()
         {
             InitializeComponent();
         }

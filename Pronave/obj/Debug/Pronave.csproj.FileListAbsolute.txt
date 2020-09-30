@@ -1,0 +1,10 @@
+D:\Projetos\Project\Pronave\Pronave\bin\Debug\Pronave.exe.config
+D:\Projetos\Project\Pronave\Pronave\bin\Debug\Pronave.exe
+D:\Projetos\Project\Pronave\Pronave\bin\Debug\Pronave.pdb
+D:\Projetos\Project\Pronave\Pronave\obj\Debug\Pronave.csprojAssemblyReference.cache
+D:\Projetos\Project\Pronave\Pronave\obj\Debug\Pronave.Properties.Resources.resources
+D:\Projetos\Project\Pronave\Pronave\obj\Debug\Pronave.Telas.Login.resources
+D:\Projetos\Project\Pronave\Pronave\obj\Debug\Pronave.csproj.GenerateResource.cache
+D:\Projetos\Project\Pronave\Pronave\obj\Debug\Pronave.csproj.CoreCompileInputs.cache
+D:\Projetos\Project\Pronave\Pronave\obj\Debug\Pronave.exe
+D:\Projetos\Project\Pronave\Pronave\obj\Debug\Pronave.pdb
