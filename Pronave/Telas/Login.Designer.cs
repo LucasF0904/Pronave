@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.lblUser = new System.Windows.Forms.Label();
@@ -41,18 +40,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel2.Location = new System.Drawing.Point(39, 266);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(215, 1);
-            this.panel2.TabIndex = 1;
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel3.Location = new System.Drawing.Point(39, 326);
+            this.panel3.Location = new System.Drawing.Point(40, 326);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(215, 1);
             this.panel3.TabIndex = 2;
@@ -61,15 +52,16 @@
             // 
             this.txtSenha.BackColor = System.Drawing.SystemColors.Control;
             this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSenha.Location = new System.Drawing.Point(39, 311);
+            this.txtSenha.Location = new System.Drawing.Point(42, 311);
             this.txtSenha.Name = "txtSenha";
+            this.txtSenha.PasswordChar = '*';
             this.txtSenha.Size = new System.Drawing.Size(215, 13);
             this.txtSenha.TabIndex = 3;
             // 
             // lblUser
             // 
             this.lblUser.AutoSize = true;
-            this.lblUser.Location = new System.Drawing.Point(39, 247);
+            this.lblUser.Location = new System.Drawing.Point(35, 247);
             this.lblUser.Name = "lblUser";
             this.lblUser.Size = new System.Drawing.Size(61, 13);
             this.lblUser.TabIndex = 4;
@@ -78,7 +70,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 292);
+            this.label1.Location = new System.Drawing.Point(35, 292);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 13);
             this.label1.TabIndex = 5;
@@ -113,16 +105,20 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.CausesValidation = false;
             this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.Image = global::Pronave.Properties.Resources.fechar;
             this.button1.Location = new System.Drawing.Point(253, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(44, 32);
             this.button1.TabIndex = 7;
-            this.button1.UseVisualStyleBackColor = false;
+            this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
@@ -149,7 +145,6 @@
             this.Controls.Add(this.lblUser);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
@@ -165,7 +160,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Label lblUser;

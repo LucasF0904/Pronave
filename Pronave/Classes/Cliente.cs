@@ -14,6 +14,6 @@ namespace Pronave.Classes
         public int cpf { get; set; }
         public string posicao_financeiro { get; set; }
         public int id_endereco_cliente { get; set; }
-        public bool lista_negra { get; set; }
+        public int lista_negra { get; set; }
     }
 }
